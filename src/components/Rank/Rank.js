@@ -1,11 +1,12 @@
 import React from "react";
 
-const Navigation = () => {
+const Rank = () => {
     return (
-        <nav style={{ display: "flex", justifyContent: "flex-end" }}>
-            <p className="f3 link dim black underline pa3 pointer">Sign Out</p>
-        </nav>
+        <div>
+            <div className="white f3 ">{"Andrei, your current rank is..."}</div>
+            <div className="white f1 ">{"#5"}</div>
+        </div>
     );
 };
 
-export default Navigation;
+export default Rank;

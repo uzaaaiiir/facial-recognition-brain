@@ -2,20 +2,19 @@ const particlesConfig = {
     autoPlay: true,
     background: {
         color: {
-            value: "linear-gradient(89deg, #ff5edf 0%, #04c8de 100%)",
+            value: "",
         },
-
         image: "",
         position: "",
         repeat: "",
         size: "",
-        opacity: 1,
+        opacity: 0,
     },
     backgroundMask: {
         composite: "destination-out",
         cover: {
             color: {
-                value: "#000",
+                value: "#fff",
             },
             opacity: 1,
         },
@@ -23,13 +22,13 @@ const particlesConfig = {
     },
     fullScreen: {
         enable: true,
-        zIndex: -1,
+        zIndex: 1,
     },
     detectRetina: true,
     duration: 0,
     fpsLimit: 120,
     interactivity: {
-        detectsOn: "window",
+        detectsOn: "canvas",
         events: {
             onClick: {
                 enable: false,
@@ -144,7 +143,7 @@ const particlesConfig = {
                 quantity: 5,
                 particles: {
                     color: {
-                        value: "#ff0000",
+                        value: "ff0000",
                         animation: {
                             enable: true,
                             speed: 400,
@@ -228,7 +227,7 @@ const particlesConfig = {
             },
         },
         color: {
-            value: "#ff0000",
+            value: "ff0000",
             animation: {
                 h: {
                     count: 0,
@@ -295,7 +294,7 @@ const particlesConfig = {
             shadow: {
                 blur: 5,
                 color: {
-                    value: "#000",
+                    value: "000",
                 },
                 enable: false,
             },
@@ -432,7 +431,7 @@ const particlesConfig = {
         shadow: {
             blur: 0,
             color: {
-                value: "#000",
+                value: "000",
             },
             enable: false,
             offset: {

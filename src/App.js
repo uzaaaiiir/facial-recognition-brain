@@ -12,6 +12,7 @@ class App extends Component {
         return (
             <div className="App">
                 <ParticlesBackground />
+
                 <Navigation />
                 <Logo />
                 <Rank />

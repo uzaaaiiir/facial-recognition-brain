@@ -3,7 +3,11 @@ import particlesConfig from "./particles-config";
 import React from "react";
 
 const ParticlesBackground = () => {
-    return <Particles params={particlesConfig}></Particles>;
+    return (
+        <div>
+            <Particles params={particlesConfig}></Particles>;
+        </div>
+    );
 };
 
 export default ParticlesBackground;

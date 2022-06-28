@@ -1,25 +1,5 @@
 const particlesConfig = {
     autoPlay: true,
-    background: {
-        color: {
-            value: "",
-        },
-        image: "",
-        position: "",
-        repeat: "",
-        size: "",
-        opacity: 0,
-    },
-    backgroundMask: {
-        composite: "destination-out",
-        cover: {
-            color: {
-                value: "#fff",
-            },
-            opacity: 1,
-        },
-        enable: false,
-    },
     fullScreen: {
         enable: true,
         zIndex: 1,
